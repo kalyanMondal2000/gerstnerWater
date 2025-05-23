@@ -1,6 +1,6 @@
-import * as THREE from "./three/build/three.module.js"
-import { Water } from './three/examples/jsm/objects/Water.js'
+import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.160.1/build/three.module.js";
 
+import { Water } from "https://cdn.jsdelivr.net/npm/three@0.160.1/examples/jsm/objects/Water.js";
 export default class GerstnerWater {
     water
     waves
